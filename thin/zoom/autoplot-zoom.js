@@ -94,7 +94,7 @@ function refresh() {
  */
 function resetUrl(url) {
     if ( url.length===0 ) {
-        url= '../../SimpleServlet?vap='+document.getElementById('vapta').value;
+        url= 'http://autoplot.org/plot/SimpleServlet?vap='+document.getElementById('vapta').value;
     }
     $('#idstatus').text("reset url "+url);
     $('#progress').attr('src', 'spinner.gif');

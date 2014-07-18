@@ -23,7 +23,7 @@
      %>
 	<div id="iddivimg">
 		<img id="idplot" 
-                     src="../../SimpleServlet?vap=<%= URLEncoder.encode(vap,"US-ASCII") %>"
+                     src="http://autoplot.org/plot/SimpleServlet?vap=<%= URLEncoder.encode(vap,"US-ASCII") %>"
                      onload="logloaded();" 
                 >
 	</div>
